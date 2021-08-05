@@ -1,12 +1,12 @@
 {
-    "name": "@rplateaux/time-series",
+    "name": "flux-time-series",
     "version": "0.0.0-next",
     "description": "later",
     "author": "",
     "keywords": [
         "flux"
     ],
-    "main": "dist/@rplateaux/time-series.js",
+    "main": "dist/flux-time-series.js",
     "types": "src/index.ts",
     "scripts": {
         "autogen": "node scripts/auto-gen.js",

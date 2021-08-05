@@ -2,11 +2,11 @@
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("@youwol/flux-core"), require("@youwol/dataframe"));
 	else if(typeof define === 'function' && define.amd)
-		define("@rplateaux/time-series", ["@youwol/flux-core", "@youwol/dataframe"], factory);
+		define("flux-time-series", ["@youwol/flux-core", "@youwol/dataframe"], factory);
 	else if(typeof exports === 'object')
-		exports["@rplateaux/time-series"] = factory(require("@youwol/flux-core"), require("@youwol/dataframe"));
+		exports["flux-time-series"] = factory(require("@youwol/flux-core"), require("@youwol/dataframe"));
 	else
-		root["@rplateaux/time-series"] = factory(root["@youwol/flux-core"], root["@youwol/dataframe"]);
+		root["flux-time-series"] = factory(root["@youwol/flux-core"], root["@youwol/dataframe"]);
 })((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__youwol_flux_core__, __WEBPACK_EXTERNAL_MODULE__youwol_dataframe__) {
 return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
@@ -23,8 +23,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "AUTO_GENERATED": () => (/* binding */ AUTO_GENERATED)
 /* harmony export */ });
 let AUTO_GENERATED = {
-    name: "@rplateaux/time-series",
-    namespace: "rplateaux",
+    name: "flux-time-series",
+    namespace: "",
     version: "0.0.0-next",
     description: "later"
 };
@@ -656,4 +656,4 @@ __webpack_require__.r(__webpack_exports__);
 /******/ })()
 ;
 });
-//# sourceMappingURL=time-series.js.map
+//# sourceMappingURL=flux-time-series.js.map
